@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe I', TUahoma, Geneva, Verdana, sans-serif;
+}
+
+/*--Order Section--*/
+.order-food{
+    display: flex;
+    width: 100%; 
+    margin-bottom: 100px;
+}
+.order-food .col1{
+    width: 50%;
+    padding:10% 10% ;
+}
+.order-food .col2{
+    width: 50%;
+    padding-top: 5%;
+}
+.order-food .col2 img{
+    width: 90%;
+}
+.order-food .col1 span{
+    color: orange;
+}
+.order-food .col1 h1{
+    color: #575757;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.order-food .col1 p{
+    color: #575757;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    padding: 3% 8%;
+    background-image: linear-gradient(to right,rgb(255, 157, 101),tomato);
+    border-radius: 30px;
+    box-shadow: tomato 0px 5px 15px;
+    color: white;
+    font-weight: 700;    
+}
+
+
+
+/*--About Section--*/
+.about-me{
+    display: flex;
+    background-image:url("images/shapes/7.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    padding-top:6%;
+}
+.about-me .col1{
+    width: 60%;
+}
+.about-me .col2{
+    width: 40%;
+    padding:5% 10%;
+}
+.about-me .col1 img{
+ width:45%;
+ padding-left: 35%;
+}
+
+.about-me .col2 h1{
+    color: #575757;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-right: 20%;
+}
+.about-me .col2 p{
+    color: #575757;
+    margin-bottom: 70px;
+    padding-right: 20%;
+}
+
+
+
+/*--Recipe Item Section---*/
+.recipe{
+    display: flex;
+    flex-direction: column;
+}
+.recipe .title{
+    text-align: center;
+    padding: 5% 30%;  
+}
+.title h1{
+    margin-bottom: 20px;
+    color: #575757;
+}
+.recipe .recipe-item{
+    display: flex;
+    justify-content: space-around;
+}
+.recipe-item .item{
+    width:25%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin:0 5%;
+    padding: 10px;
+    border-radius: 15px;
+}
+.recipe-item .item img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.recipe-item .item h3{
+    margin-bottom: 10px;
+}
+.recipe-item .item p{
+    margin-bottom: 30px;
+}
+.recipe .count-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 12% 8%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 10px;
+    width: 65%;
+    padding: 5% 10%;
+}
+.recipe .count-div h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.recipe .count-div p{
+    font-size: 12px;
+}
+
+
+/*--footer Section--*/
+
+footer{
+    background-color: black;
+    padding: 8% 0;
+    text-align: center;
+    color: white;
+}
+
+footer span{
+    color: orange;
+}
+footer h2{
+    color: #575757; 
+    margin-bottom: 20px;
+}
