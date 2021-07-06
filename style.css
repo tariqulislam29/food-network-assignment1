@@ -6,12 +6,12 @@
 /*-- nav section--*/
 nav{
     display: flex;
-   padding: 20px 0;
-  justify-content: space-between;
-  border-bottom: 1px solid rgb(238, 238, 238);
-   width: 100%;
-   position: fixed;
- background-color: white;
+    padding: 20px 0;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    width: 100%;
+    position: fixed;
+    background-color: white;
 }
 .logo  span{
     color:orange;
@@ -19,11 +19,10 @@ nav{
     font-size: 25px;
     font-weight: 700;
 }
-
 .nav-list ul li{
     display: inline-block;
-  margin-top: 15px;
-  padding-right: 20px;
+    margin-top: 15px;
+    padding-right: 20px;
 }
 .nav-list ul li a{
     text-decoration:none;
@@ -32,8 +31,7 @@ nav{
     background-image: linear-gradient(to right,rgb(255, 157, 101),tomato);
     font-weight: 700;
     padding:10px 20px;
-    border:1px solid transparent;
-    
+    border:1px solid transparent;  
   }
   
 
@@ -99,10 +97,9 @@ a{
     padding:5% 10%;
 }
 .about-me .col1 img{
- width:45%;
- padding-left: 35%;
+    width:45%;
+    padding-left: 35%;
 }
-
 .about-me .col2 h1{
     color: #575757;
     font-size: 30px;
@@ -178,7 +175,6 @@ footer{
     text-align: center;
     color: white;
 }
-
 footer span{
     color: orange;
 }
